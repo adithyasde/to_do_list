@@ -1,0 +1,78 @@
+.task{
+    height:30px;
+    
+}
+
+body
+{
+    height:100vh;
+    background: url(/img/bg.jpg) no-repeat center center/cover;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_task_container
+{
+    width:350px;
+    background-color: white;
+    padding:20px 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#input_label
+{
+    flex:5;
+    margin-right:10px;
+    font-size : 1.2rem;
+    border-radius:10px;
+}
+
+#add-task
+{
+    flex:1;
+    border-radius:10px;
+    background-color: black;
+    color:white;
+}
+
+.task
+{
+    display : flex;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 0;
+    border:solid black px;
+}
+
+.checkTask
+{
+    flex:0.5;
+    margin-right:10px;
+}
+
+li{
+    list-style: none;
+    flex:5;
+    margin-right:10px;
+    font-weight: bold;
+
+}
+.deleteTask
+{
+    flex:0.5;
+}
+
+.elements
+{
+    padding-left:0px;
+   
+    
+}
+
